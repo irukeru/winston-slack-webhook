@@ -1,8 +1,8 @@
 {
-  "name": "winston-slack-webhook",
+  "name": "custom-winston-slack-webhook",
   "version": "0.1.6",
   "description": "customized version of winston slack webhook by motomux",
-  "main": "lib/winston-slack-webhook",
+  "main": "lib/custom-winston-slack-webhook",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irukeru/winston-slack-webhook.git"

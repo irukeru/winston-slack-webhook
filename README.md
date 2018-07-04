@@ -1,10 +1,10 @@
-# winston-slack-webhook
+# custom-winston-slack-webhook
 ------
 
 ## Installation
 
 ```
-  npm install -S winston winston-slack-webhook
+  npm install -S winston custom-winston-slack-webhook
 ```
 
 ## Usage
@@ -13,7 +13,7 @@
 
 ```
   var winston = require('winston');
-  var SlackWebHook = require('winston-slack-webhook').SlackWebHook;
+  var SlackWebHook = require('custom-winston-slack-webhook').SlackWebHook;
 
   var logger = new winston.Logger({
     level: 'info',
@@ -36,7 +36,7 @@
 
 ```
   var winston = require('winston');
-  var SlackWebHook = require('winston-slack-webhook').SlackWebHook;
+  var SlackWebHook = require('custom-winston-slack-webhook').SlackWebHook;
 
   var logger = new winston.Logger();
   logger.add(SlackWebHook, {
