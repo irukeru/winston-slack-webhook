@@ -1,6 +1,6 @@
 {
   "name": "edr-winston-slack-webhook",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "customized version of winston slack webhook by motomux",
   "main": "lib/edr-winston-slack-webhook",
   "repository": {
